@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22757" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="BuyerModel" representedClassName="BuyerModel" syncable="YES" codeGenerationType="class">
+        <attribute name="first_name" optional="YES" attributeType="String"/>
+        <attribute name="second_name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FranchiseModel" representedClassName="FranchiseModel" syncable="YES" codeGenerationType="class">
+        <attribute name="avg_annual_sales" optional="YES" attributeType="String"/>
+        <attribute name="avg_profit_margine" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="geo_presence" optional="YES" attributeType="String"/>
+        <attribute name="initital_investmne" optional="YES" attributeType="String"/>
+        <attribute name="min_liq_capital" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="royalty_fee" optional="YES" attributeType="String"/>
+        <attribute name="something" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TransactionModel" representedClassName="TransactionModel" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="buyer" optional="YES" attributeType="String"/>
+        <attribute name="direction" optional="YES" attributeType="String"/>
+        <attribute name="franchise" optional="YES" attributeType="String"/>
+    </entity>
+</model>
